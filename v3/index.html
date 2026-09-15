@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500&amp;family=EB+Garamond:wght@400;500&amp;family=Nanum+Myeongjo:wght@400;700&amp;display=swap" rel="stylesheet">
+<style>
+  *, *::before, *::after { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: #1b1a20; }
+  a { color: #3f7d63; text-decoration: none; }
+  a:hover { color: #4f4880; }
+</style>
+</helmet>
+<x-import component-from-global-scope="deck-stage" from="./deck-stage.js" width="1752" height="1166" hint-size="100%,100%" data-uneditable="">
+
+  <section data-label="Cover" data-speaker-notes="2027 표지" style="width:1752px;height:1166px;position:relative;overflow:hidden;background:#f4eee3;font-family:'Playfair Display',serif">
+    <img src="assets/cover-bus-print.png" alt="" style="position: absolute; left: -120px; width: 2019px; height: 922px; display: block; pointer-events: none; top: 377px">
+    <div style="position:absolute;left:132px;top:86px;display:flex;align-items:center;gap:26px">
+      <img src="assets/hi-logo.png" alt="Hi" style="width:52px;height:59px;display:block">
+      <span style="width:1px;height:46px;background:#bcb8a9"></span>
+      <span style="font-family:'EB Garamond',serif;font-size:24px;line-height:1;letter-spacing:0.4em;color:#8a8676;padding-left:0.4em">2027 CALENDAR</span>
+    </div>
+    <div style="position:absolute;left:132px;top:168px;font-size:232px;line-height:0.86;letter-spacing:-0.03em;color:#23252f">2027</div>
+    <div style="position:absolute;right:132px;top:176px;display:flex;flex-direction:column;align-items:flex-end;gap:22px">
+      <div style="font-size:78px;line-height:1.02;font-style:italic;color:#3f7d63">Hi, Journey<br>to Life</div>
+      <div style="display:flex;align-items:center;gap:20px">
+        <span style="width:120px;height:1px;background:#bcb8a9"></span>
+        <span style="font-family:'Nanum Myeongjo',serif;font-size:24px;line-height:1;color:#57544b">새로운 길 위에서, 함께</span>
+      </div>
+    </div>
+  </section>
+
+  <section data-label="Cover B" data-speaker-notes="2027 표지 대안 — 나무" style="width:1752px;height:1166px;position:relative;overflow:hidden;background:#f4eee3;font-family:'Playfair Display',serif">
+    <img src="assets/cover-tree-print.png" alt="" style="position: absolute; width: 729px; height: 1170px; display: block; pointer-events: none; top: 3px; left: 701px">
+    <div style="position:absolute;left:132px;top:132px;display:flex;align-items:center;gap:26px">
+      <img src="assets/hi-logo.png" alt="Hi" style="width:52px;height:59px;display:block">
+      <span style="width:1px;height:46px;background:#bcb8a9"></span>
+      <span style="font-family:'EB Garamond',serif;font-size:24px;line-height:1;letter-spacing:0.4em;color:#8a8676;padding-left:0.4em">2027 CALENDAR</span>
+    </div>
+    <div style="position:absolute;left:132px;right:760px;top:318px;display:flex;flex-direction:column;align-items:flex-start;gap:40px">
+      <div style="font-size:300px;line-height:0.8;letter-spacing:-0.03em;color:#23252f">20<br>27</div>
+      <div style="display:flex;flex-direction:column;align-items:flex-start;gap:24px">
+        <span style="width:130px;height:1px;background:#bcb8a9"></span>
+        <div style="font-size:74px;line-height:1.04;font-style:italic;color:#3f7d63">Hi, Journey<br>to Life</div>
+      </div>
+    </div>
+    <div style="position:absolute;left:132px;bottom:92px;font-family:'Nanum Myeongjo',serif;font-size:24px;line-height:1;color:#57544b">함께 자라는 한 해</div>
+  </section>
+
+  <section data-label="2027 한눈에" data-speaker-notes="연간 한눈에 보기" style="width:1752px;height:1166px;position:relative;overflow:hidden;background:#e5e6e0;font-family:'Playfair Display',serif">
+    <div style="position:absolute;right:0;top:0;width:676px;height:1166px;background:#cfc8b7"></div>
+    <div style="position:absolute;right:-150px;bottom:-170px;width:560px;height:560px;border-radius:50%;background:#c6bda8;pointer-events:none"></div>
+    <img src="assets/mascot-somang.png" alt="" style="position:absolute;left:1524px;top:498px;width:104px;height:116px;display:block;pointer-events:none">
+    <div style="position:absolute;right:0;top:132px;width:676px;display:flex;flex-direction:column;align-items:center">
+      <div style="font-size:400px;line-height:0.84;letter-spacing:-0.03em;color:#23252f;text-align:center">20<br>27</div>
+    </div>
+    <div style="position:absolute;right:0;bottom:118px;width:676px;display:flex;flex-direction:column;align-items:center;gap:20px">
+      <div style="width:168px;height:1px;background:rgba(35,37,47,0.32)"></div>
+      <div style="font-family:'EB Garamond',serif;font-size:48px;line-height:1;letter-spacing:0.22em;color:#23252f">HI JOURNEY</div>
+    </div>
+    <div style="position:absolute;left:80px;top:150px;width:938px;height:924px;display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:repeat(4,1fr);column-gap:74px;row-gap:22px">
+      <sc-for list="{{ yearMonths }}" as="ym" hint-placeholder-count="12">
+        <div style="display:flex;flex-direction:column;min-width:0">
+          <div style="display:flex;align-items:baseline;justify-content:space-between;border-bottom:1px solid #b8b8b1;padding-bottom:6px">
+            <span style="font-size:29px;line-height:1;color:#23252f">{{ ym.en }}</span>
+            <span style="font-size:29px;line-height:1;color:#9c9483">{{ ym.mm }}</span>
+          </div>
+          <div style="margin-top:8px;display:grid;grid-template-columns:repeat(7,1fr);row-gap:7px;font-size:18px;text-align:center">
+            <sc-for list="{{ ym.cells }}" as="d" hint-placeholder-count="35">
+              <span style="color: {{ d.c }}">{{ d.n }}</span>
+            </sc-for>
+          </div>
+        </div>
+      </sc-for>
+    </div>
+  </section>
+
+  <sc-for list="{{ months }}" as="mo" hint-placeholder-count="2">
+
+    <section data-label="{{ mo.deskLabel }}" data-speaker-notes="{{ mo.noteLine }}" style="width:1752px;height:1166px;position:relative;overflow:hidden;background:#e8e9e4;font-family:'Playfair Display',serif">
+      <img src="{{ mo.art }}" alt="" style="position:absolute;left:0;top:0;width:692px;height:1166px;object-fit:cover;display:block" />
+      <div style="position:absolute;left:0;top:0;width:692px;height:1166px;pointer-events:none;background:linear-gradient(90deg,rgba(244,238,227,0.14) 0%,rgba(244,238,227,0) 15%,rgba(244,238,227,0) 84%,rgba(244,238,227,0.3) 100%)"></div>
+      <div style="position:absolute;left:692px;top:0;width:1px;height:1166px;background:rgba(35,37,47,0.1);pointer-events:none"></div>
+      <div style="position:absolute;left:636px;top:-142px;font-size:510px;line-height:1;letter-spacing:-0.03em;color:#dae5dd;pointer-events:none">{{ mo.mm }}</div>
+      <div style="position:absolute;right:76px;top:156px;font-size:78px;line-height:1;color:#23252f">{{ mo.en }}</div>
+      <div style="position:absolute;left:769px;top:262px;width:908px;display:grid;grid-template-columns:repeat(7,1fr);column-gap:10px;text-align:right">
+        <div style="font-size:30px;line-height:1;color:#3f7d63;padding:0 6px 14px 0">Sun</div>
+        <div style="font-size:30px;line-height:1;color:#23252f;padding:0 6px 14px 0">Mon</div>
+        <div style="font-size:30px;line-height:1;color:#23252f;padding:0 6px 14px 0">Tue</div>
+        <div style="font-size:30px;line-height:1;color:#23252f;padding:0 6px 14px 0">Wed</div>
+        <div style="font-size:30px;line-height:1;color:#23252f;padding:0 6px 14px 0">Thu</div>
+        <div style="font-size:30px;line-height:1;color:#23252f;padding:0 6px 14px 0">Fri</div>
+        <div style="font-size:30px;line-height:1;color:#3f7d63;padding:0 6px 14px 0">Sat</div>
+      </div>
+      <div style="position:absolute;left:769px;top:306px;width:908px;height:618px;display:grid;grid-template-columns:repeat(7,1fr);column-gap:10px;grid-auto-rows:minmax(0,1fr);border-bottom:1px solid #b6b5ae">
+        <sc-for list="{{ mo.deskCells }}" as="d" hint-placeholder-count="35">
+          <div style="border-top:1px solid #b6b5ae;display:flex;flex-direction:column;min-width:0;padding-bottom:34px">
+            <div style="display:flex;align-items:baseline;justify-content:flex-end;gap:8px;padding:0 8px 0 0">
+              <span style="font-size:19px;line-height:1.1;color:#9c9483">{{ d.n2 }}</span>
+              <span style="font-size:28px;line-height:1.1;color: {{ d.c }}">{{ d.n }}</span>
+            </div>
+            <div style="height:30px;border-bottom:1px dotted #cbcac3"></div>
+            <div style="height:30px;border-bottom:1px dotted #cbcac3"></div>
+          </div>
+        </sc-for>
+      </div>
+      <div style="position:absolute;right:76px;top:954px;font-family:'Nanum Myeongjo',serif;font-size:18px;font-weight:700;color:#2f6a53">{{ mo.noteLine }}</div>
+      <sc-if value="{{ showTodo }}" hint-placeholder-val="{{ true }}">
+        <div style="position:absolute;left:692px;right:0;bottom:0;height:128px;background:#e3e5df"></div>
+        <div style="position:absolute;left:769px;top:990px;display:flex;align-items:center;gap:8px">
+          <span style="font-size:30px;line-height:1;color:#23252f;padding:9px 12px">ToDo Check</span>
+          <span style="font-family:'Nanum Myeongjo',serif;font-size:22px;line-height:1;color:#2f6a53;background:#ffffff;border:1px solid #bcd6c8;border-radius:6px;padding:12px 260px 12px 20px">Plan :</span>
+        </div>
+        <div style="position:absolute;left:769px;top:1068px;width:908px;display:flex;gap:4px">
+          <sc-for list="{{ mo.todoDays }}" as="t" hint-placeholder-count="31">
+            <span style="flex:1;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:13px;line-height:1;border:1px solid #bcd6c8;background: {{ t.bg }};color: {{ t.c }}">{{ t.n }}</span>
+          </sc-for>
+        </div>
+      </sc-if>
+    </section>
+
+    <section data-label="{{ mo.wallLabel }}" data-speaker-notes="{{ mo.noteLine }}" style="width:1752px;height:1166px;position:relative;overflow:hidden;background:#e8e9e4;font-family:'Playfair Display',serif">
+      <div style="position:absolute;left:140px;top:118px;width:810px;display:flex;align-items:baseline;justify-content:center;gap:74px">
+        <span style="font-family:'EB Garamond',serif;font-size:54px;line-height:1;color:#9c9483">{{ mo.y }}</span>
+        <span style="font-size:118px;line-height:1;color:#23252f">{{ mo.m }}</span>
+        <span style="font-family:'EB Garamond',serif;font-size:76px;line-height:1;color:#9c9483">{{ mo.en }}</span>
+      </div>
+      <div style="position:absolute;left:140px;top:346px;width:810px;display:grid;grid-template-columns:repeat(7,1fr);text-align:center">
+        <div style="font-size:26px;line-height:1;letter-spacing:0.04em;color:#3f7d63;padding-bottom:24px">Sun</div>
+        <div style="font-size:26px;line-height:1;letter-spacing:0.04em;color:#23252f;padding-bottom:24px">Mon</div>
+        <div style="font-size:26px;line-height:1;letter-spacing:0.04em;color:#23252f;padding-bottom:24px">Tue</div>
+        <div style="font-size:26px;line-height:1;letter-spacing:0.04em;color:#23252f;padding-bottom:24px">Wed</div>
+        <div style="font-size:26px;line-height:1;letter-spacing:0.04em;color:#23252f;padding-bottom:24px">Thu</div>
+        <div style="font-size:26px;line-height:1;letter-spacing:0.04em;color:#23252f;padding-bottom:24px">Fri</div>
+        <div style="font-size:26px;line-height:1;letter-spacing:0.04em;color:#3f7d63;padding-bottom:24px">Sat</div>
+      </div>
+      <div style="position:absolute;left:140px;top:402px;width:810px;height:670px;border-top:1px solid #a9a9a2;border-bottom:1px solid #a9a9a2;display:grid;grid-template-columns:repeat(7,1fr);grid-auto-rows:minmax(0,1fr)">
+        <sc-for list="{{ mo.wallCells }}" as="d" hint-placeholder-count="42">
+          <div style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;min-width:0;overflow:hidden">
+            <div style="font-size:58px;line-height:1;color: {{ d.c }}">{{ d.n }}</div>
+            <div style="font-family:'Nanum Myeongjo',serif;font-size:16px;line-height:1.25;text-align:center;color:#2f6a53">{{ d.h }}</div>
+          </div>
+        </sc-for>
+      </div>
+      <div style="position:absolute;left:1036px;top:214px;width:576px;display:flex;flex-direction:column">
+        <div style="display:flex;align-items:baseline">
+          <span style="width:124px;flex:none"></span>
+          <span style="flex:1;display:grid;grid-template-columns:repeat(7,1fr);text-align:center;font-size:22px;line-height:1;height:48px;letter-spacing:0.06em;color:#3f7d63">
+            <span>S</span><span>M</span><span>T</span><span>W</span><span>T</span><span>F</span><span>S</span>
+          </span>
+        </div>
+        <sc-for list="{{ mo.miniRows }}" as="r" hint-placeholder-count="14">
+          <div style="display:flex;align-items:stretch;height:54px">
+            <span style="width:124px;flex:none;display:flex;align-items:center;justify-content:center;font-size:60px;line-height:1;color:#23252f;background: {{ r.rowBg }};border-radius: {{ r.rowRad }}">{{ r.lab }}</span>
+            <span style="flex:1;display:grid;grid-template-columns:repeat(7,1fr);font-size:26px;letter-spacing:0.02em">
+              <sc-for list="{{ r.cells }}" as="d" hint-placeholder-count="7">
+                <span style="display:flex;align-items:center;justify-content:center;background: {{ d.bg }};color: {{ d.c }};border-radius: {{ d.rad }}">{{ d.n }}</span>
+              </sc-for>
+            </span>
+          </div>
+        </sc-for>
+      </div>
+      <div style="position:absolute;left:140px;bottom:44px;font-family:'EB Garamond',serif;font-size:18px;letter-spacing:0.2em;color:#9c9483">Hi, Journey to Life</div>
+    </section>
+
+  </sc-for>
+  <section data-label="마스코트" data-speaker-notes="태명 소개 + 하이패밀리 마스코트" style="width:1752px;height:1166px;display:flex;overflow:hidden;background:#e8e9e4;font-family:'Nanum Myeongjo',serif">
+    <div style="width:692px;height:1166px;flex:none;background:#dcdcd6">
+      <img src="assets/mascot.jpg" alt="" style="width:100%;height:100%;object-fit:cover;display:block">
+    </div>
+    <div style="flex:1;min-width:0;padding:152px 104px 96px 78px;display:flex;flex-direction:column">
+      <div style="font-family:'Playfair Display',serif;font-size:22px;letter-spacing:0.3em;color:#3f7d63">HI FAMILY</div>
+      <h1 style="margin:26px 0 0;font-size:44px;font-weight:700;color:#23252f;letter-spacing:-0.01em">[태명]아, 반가워!</h1>
+      <div style="margin-top:44px;display:flex;flex-direction:column;gap:28px;font-size:20px;line-height:1.9;color:#3a3c46">
+        <p style="margin:0;text-wrap:pretty">HI에서 만난 우리 아기들의 소중한 첫 이름, 태명.<br>작은 세포에서 건강한 아기로 자라기까지<br>엄마, 아빠의 간절한 기다림과<br>HI 의료진의 따뜻한 마음이 늘 함께했습니다.</p>
+        <p style="margin:0;text-wrap:pretty">이 사랑스러운 이름들처럼,<br>HI는 오늘도 새로운 만남을 준비합니다.<br>HI에서 만날 새로운 태명의 이야기는 계속됩니다.</p>
+        <p style="margin:0;font-size:16px;color:#7d7d76">※ 태명은 HI 홈페이지에 게시된 후기에서 발췌되었습니다.</p>
+      </div>
+      <div style="margin-top:auto;display:flex;flex-direction:column;gap:24px">
+        <div style="display:flex;gap:36px;align-items:flex-end">
+          <div style="display:flex;flex-direction:column;align-items:center;gap:12px">
+            <div style="width:88px;height:88px;border-radius:50%;background-image:url('assets/mascot-1.jpg');background-size:cover;background-position:50% 45%;border:3px solid #f2f2ee"></div>
+            <div style="text-align:center;line-height:1.35"><div style="font-size:18px;font-weight:700;color:#23252f">하이투</div><div style="font-family:'EB Garamond',serif;font-size:15px;color:#3f7d63">Hi-Two</div></div>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:center;gap:12px">
+            <div style="width:88px;height:88px;border-radius:50%;background-image:url('assets/mascot-2.jpg');background-size:cover;background-position:50% 45%;border:3px solid #f2f2ee"></div>
+            <div style="text-align:center;line-height:1.35"><div style="font-size:18px;font-weight:700;color:#23252f">하이포</div><div style="font-family:'EB Garamond',serif;font-size:15px;color:#3f7d63">Hi-Four</div></div>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:center;gap:12px">
+            <div style="width:88px;height:88px;border-radius:50%;background-image:url('assets/mascot-3.jpg');background-size:cover;background-position:40% 45%;border:3px solid #f2f2ee"></div>
+            <div style="text-align:center;line-height:1.35"><div style="font-size:18px;font-weight:700;color:#23252f">하이롤라</div><div style="font-family:'EB Garamond',serif;font-size:15px;color:#3f7d63">Hi-Rola</div></div>
+          </div>
+          <div style="display:flex;flex-direction:column;align-items:center;gap:12px">
+            <div style="width:88px;height:88px;border-radius:50%;background-image:url('assets/mascot-4.jpg');background-size:cover;background-position:60% 55%;border:3px solid #f2f2ee"></div>
+            <div style="text-align:center;line-height:1.35"><div style="font-size:18px;font-weight:700;color:#23252f">하이블라</div><div style="font-family:'EB Garamond',serif;font-size:15px;color:#3f7d63">Hi-Bla</div></div>
+          </div>
+        </div>
+        <div style="font-size:15px;letter-spacing:0.08em;color:#7d7d76">에이치아이 여성의원 마스코트 · 하이패밀리 Hi-Family</div>
+      </div>
+    </div>
+  </section>
+
+</x-import>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showTodo&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;탁상형 페이지&quot;}}">
+const EN = ["January","February","March","April","May","June","July","August","September","October","November","December"];
+const ART = ["assets/m01-jan-print.jpg","assets/m02-feb-print.jpg","assets/m03-mar-print.jpg","assets/m04-apr-print.jpg","assets/m05-may-print.jpg","assets/m06-jun-print.jpg","assets/m07-jul-print.jpg","assets/m08-aug-print.jpg","assets/m09-sep-print.jpg","assets/m10-oct-print.jpg","assets/m11-nov-print.jpg","assets/m12-dec-print.jpg"];
+const HOL = {
+  "2026-12-25": ["성탄절", 1],
+  "2027-1-1": ["새해 첫날", 1],
+  "2027-2-5": ["설날 연휴", 1], "2027-2-6": ["설날", 1], "2027-2-7": ["설날 연휴", 1], "2027-2-8": ["대체 휴일", 1],
+  "2027-3-1": ["삼일절", 1],
+  "2027-4-16": ["개원기념일", 0],
+  "2027-5-5": ["어린이날", 1], "2027-5-8": ["어버이날", 0], "2027-5-13": ["부처님 오신 날", 1], "2027-5-15": ["스승의 날", 0],
+  "2027-6-6": ["현충일", 1], "2027-6-7": ["대체 휴일", 1],
+  "2027-7-17": ["제헌절", 0],
+  "2027-8-15": ["광복절", 1], "2027-8-16": ["대체 휴일", 1],
+  "2027-9-14": ["추석 연휴", 1], "2027-9-15": ["추석", 1], "2027-9-16": ["추석 연휴", 1],
+  "2027-10-3": ["개천절", 1], "2027-10-4": ["대체 휴일", 1], "2027-10-9": ["한글날", 1], "2027-10-11": ["대체 휴일", 1],
+  "2027-12-25": ["성탄절", 1]
+};
+const INK = "#23252f", PUR = "#3f7d63", MUTE = "#c6c0b1";
+const BAND = ["#e2e2dd", "transparent", "#e2e2dd"];
+
+function dim(y, m) { return new Date(y, m, 0).getDate(); }
+function hol(y, m, d) { return HOL[y + "-" + m + "-" + d] || null; }
+function dayColor(y, m, d, dow) {
+  const h = hol(y, m, d);
+  return (dow === 0 || dow === 6 || (h && h[1])) ? PUR : INK;
+}
+function pad(n) { return n < 10 ? "0" + n : "" + n; }
+
+function ownCells(y, m) {
+  const start = new Date(y, m - 1, 1).getDay(), n = dim(y, m), out = [];
+  for (let i = 0; i < start; i++) out.push({ n: "", c: INK });
+  for (let d = 1; d <= n; d++) out.push({ n: d, c: dayColor(y, m, d, (start + d - 1) % 7) });
+  while (out.length % 7) out.push({ n: "", c: INK });
+  return out;
+}
+
+function fullCells(y, m) {
+  const start = new Date(y, m - 1, 1).getDay(), n = dim(y, m);
+  const pm = m === 1 ? 12 : m - 1, py = m === 1 ? y - 1 : y, pn = dim(py, pm);
+  const out = [];
+  for (let i = start - 1; i >= 0; i--) out.push({ n: pn - i, c: MUTE, h: "" });
+  for (let d = 1; d <= n; d++) {
+    const h = hol(y, m, d);
+    out.push({ n: d, c: dayColor(y, m, d, (start + d - 1) % 7), h: h ? h[0] : "" });
+  }
+  let nd = 1;
+  while (out.length < 42) out.push({ n: nd++, c: MUTE, h: "" });
+  return out;
+}
+
+// Desk grid: always five weeks. A month that spans six weeks keeps its last
+// days as a small secondary number in the matching weekday cell of week five.
+function deskCells(y, m) {
+  const all = fullCells(y, m);
+  const five = all.slice(0, 35).map(function (c) { return { n: c.n, c: c.c, n2: "" }; });
+  const rest = all.slice(35);
+  rest.forEach(function (c, i) {
+    if (c.c !== MUTE) five[28 + i].n2 = c.n;
+  });
+  return five;
+}
+
+// ToDo Check strip: one numbered pip per day, Sundays filled.
+function todoDays(y, m) {
+  const start = new Date(y, m - 1, 1).getDay(), n = dim(y, m), out = [];
+  for (let d = 1; d <= n; d++) {
+    const on = (start + d - 1) % 7 === 0;
+    out.push({ n: d, bg: on ? "#cde3d7" : "transparent", c: on ? "#265845" : "#6a6a63" });
+  }
+  return out;
+}
+
+function noteLine(y, m) {
+  const items = [];
+  for (let d = 1; d <= dim(y, m); d++) {
+    const h = hol(y, m, d);
+    if (h) items.push((items.length ? "" : m + ".") + d + " " + h[0]);
+  }
+  return items.join("  │  ");
+}
+
+// One unbroken 7-column run across prev / current / next month: no blank cells
+// between them. Each month is told apart by a background band, and its number
+// sits in the label column beside its middle row.
+function miniRows(list) {
+  const flat = [];
+  const s0 = new Date(list[0].y, list[0].m - 1, 1).getDay();
+  for (let i = 0; i < s0; i++) flat.push({ n: "", c: INK, bg: BAND[0], k: 0 });
+  list.forEach(function (o, k) {
+    const n = dim(o.y, o.m), st = new Date(o.y, o.m - 1, 1).getDay();
+    for (let d = 1; d <= n; d++) {
+      flat.push({ n: d, c: dayColor(o.y, o.m, d, (st + d - 1) % 7), bg: BAND[k], k: k });
+    }
+  });
+  while (flat.length % 7) flat.push({ n: "", c: INK, bg: BAND[2], k: 2 });
+
+  const rows = [];
+  for (let i = 0; i < flat.length; i += 7) rows.push(flat.slice(i, i + 7));
+
+  const dom = rows.map(function (chunk) {
+    const tally = {};
+    chunk.forEach(function (c) { if (c.k >= 0) tally[c.k] = (tally[c.k] || 0) + 1; });
+    let best = -1, bc = 0;
+    Object.keys(tally).forEach(function (k) { if (tally[k] > bc) { bc = tally[k]; best = +k; } });
+    return best;
+  });
+  const labRow = {};
+  [0, 1, 2].forEach(function (k) {
+    const idx = [];
+    dom.forEach(function (d, i) { if (d === k) idx.push(i); });
+    if (idx.length) labRow[idx[Math.floor((idx.length - 1) / 2)]] = k;
+  });
+
+  // 8-column matrix (label column + 7 days) of band ids, so each band block can
+  // be given rounded outer corners wherever its edge steps.
+  const mat = rows.map(function (chunk) { return [chunk[0].k].concat(chunk.map(function (c) { return c.k; })); });
+  const R = 16;
+  function at(r, c) { return (mat[r] && mat[r][c] !== undefined) ? mat[r][c] : -9; }
+  function radius(r, c) {
+    const k = at(r, c), up = at(r - 1, c), dn = at(r + 1, c), lf = at(r, c - 1), rt = at(r, c + 1);
+    return [
+      (up !== k && lf !== k) ? R : 0,
+      (up !== k && rt !== k) ? R : 0,
+      (dn !== k && rt !== k) ? R : 0,
+      (dn !== k && lf !== k) ? R : 0
+    ].map(function (v) { return v + "px"; }).join(" ");
+  }
+
+  return rows.map(function (chunk, i) {
+    const k = labRow[i];
+    return {
+      cells: chunk.map(function (c, j) {
+        return { n: c.n, c: c.c, bg: c.bg, rad: radius(i, j + 1) };
+      }),
+      lab: k === undefined ? "" : String(list[k].m),
+      rowBg: chunk[0].bg,
+      rowRad: radius(i, 0)
+    };
+  });
+}
+
+class Component extends DCLogic {
+  renderVals() {
+    const seq = [[2026, 12]];
+    for (let m = 1; m <= 12; m++) seq.push([2027, m]);
+    const months = seq.map(function (p) {
+      const y = p[0], m = p[1];
+      const pm = m === 1 ? 12 : m - 1, py = m === 1 ? y - 1 : y;
+      const nm = m === 12 ? 1 : m + 1, ny = m === 12 ? y + 1 : y;
+      return {
+        y: y, m: m, mm: pad(m), en: EN[m - 1],
+        art: y === 2026 ? "assets/m00-dec2026-print.jpg" : ART[m - 1],
+        deskLabel: y + "." + pad(m) + " 탁상",
+        wallLabel: y + "." + pad(m) + " 벽걸이",
+        noteLine: noteLine(y, m),
+        deskCells: deskCells(y, m),
+        wallCells: fullCells(y, m),
+        todoDays: todoDays(y, m),
+        miniRows: miniRows([{ y: py, m: pm }, { y: y, m: m }, { y: ny, m: nm }])
+      };
+    });
+    const yearMonths = [];
+    for (let m = 1; m <= 12; m++) {
+      yearMonths.push({ mm: pad(m), en: EN[m - 1].slice(0, 3) + (m === 5 ? "" : "."), cells: ownCells(2027, m) });
+    }
+    return {
+      months: months, yearMonths: yearMonths,
+      showTodo: this.props.showTodo ?? true
+    };
+  }
+}
+</script>
+</body>
+</html>
